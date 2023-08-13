@@ -5,8 +5,8 @@ terraform {
       version = ">=3.69.0"
     }
   }
-  backend "git" {
-    repository = "https://github.com/xesgithub/basic-infra-module.git"
-    branch     = "main"
-  }
+  # backend "git" {
+  #   repository = "https://github.com/xesgithub/basic-infra-module.git"
+  #   branch     = "main"
+  # }
 }
